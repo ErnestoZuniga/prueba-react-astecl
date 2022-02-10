@@ -1,0 +1,35 @@
+$color-light: #72bff3;
+$color-dark: #d3d3d3;
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  width: 200px;
+  text-align: center;
+}
+
+table{
+  //background-color:  red;
+  margin: 0 auto; 
+  table-layout: fixed;
+  width: 100px;
+}
+
+th {
+  background-color: #72bff3;
+  height: 100px;
+}
+
+
+
+.col {
+  display: flex;
+  &__light{
+    background-color: $color-light;
+  }
+  &__dark{
+    background-color: $color-dark;
+  }
+}
