@@ -1,5 +1,7 @@
 import React from 'react';
 
+import styles from '../styles/styles.module.scss';
+
 const Pagination = (props) => {
   const {
     onPageChange,
@@ -8,7 +10,7 @@ const Pagination = (props) => {
   } = props;
 
   const onNext = () => {
-    onPageChange(currentPage + 1);
+    currentPage === 10 ? onPageChange( 10 ) : onPageChange(currentPage + 1);
   };
 
   const onPrevious = () => {
@@ -16,11 +18,11 @@ const Pagination = (props) => {
   };
   
   return(
-    <>
+    <div className={styles.box}>
     <button onClick={onPrevious}> {"<--"} </button>
     <p>{currentPage}</p>
     <button onClick={onNext}> {'-->'} </button>
-    </>
+    </div>
   )
 }
 

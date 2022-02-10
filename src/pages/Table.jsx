@@ -32,7 +32,7 @@ const Table = () => {
           <TableComponent data={data}/> 
           <Pagination
             currentPage={currentPage}
-            onPageChange={page => setCurrentPage(page)}
+            onPageChange={page => page === 0 ? setCurrentPage(1) : setCurrentPage(page)}
           />
         </>  : <p> No hay data para mostrar</p>
       }

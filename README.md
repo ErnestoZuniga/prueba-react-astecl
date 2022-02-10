@@ -23,4 +23,6 @@ Generar una tabla con React, SASS y Redux. Apartir del siguiente endpoint: [Cond
 
 # Informacion adicional
 
-- No se implementa Redux o useContext por que el manejo del estado no se vuelve tan complejo entre componentes y por tiempo.
+- No se implementa Redux o useContext por que el manejo del estado no se vuelve tan complejo entre componentes (se uso callbacks para manejar el estado) y por tiempo.
+
+- No se implemento prueba unitaria con JEST.
