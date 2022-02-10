@@ -12,8 +12,10 @@ Generar una tabla con React, SASS y Redux. Apartir del siguiente endpoint: [Cond
 
 ## Correr este projecto.
 
-- ejecutar en terminal npm install
-- Presonar enlace de prueba tecnica o dirigirse a la direccion http://localhost:3000/table
+- Colocarse dentro de la carpeta del proyecto.
+- Ejecutar en terminal npm install.
+- Correr el proyecto con npm run start.
+- Presionar enlace de prueba tecnica o dirigirse a la direccion http://localhost:3000/table
 
 ## Dependencias usadas
 
@@ -21,8 +23,8 @@ Generar una tabla con React, SASS y Redux. Apartir del siguiente endpoint: [Cond
 - React Router Dom
 - Axios
 
-# Informacion adicional
+## Informacion adicional
 
 - No se implementa Redux o useContext por que el manejo del estado no se vuelve tan complejo entre componentes (se uso callbacks para manejar el estado) y por tiempo.
 
-- No se implemento prueba unitaria con JEST.
+- No se implemento prueba unitaria con JEST (No tengo dominio sobre este tema).
