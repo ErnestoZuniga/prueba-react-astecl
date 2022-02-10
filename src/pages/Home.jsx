@@ -1,5 +1,6 @@
 import logo from '../assets/logo.svg';
 import '../styles/App.css'
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -7,15 +8,21 @@ const Home = () => {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Esta es una prueba tecnica para <code>AstecL</code> realizada por <code>Luis Ernesto Zuniga</code>.
         </p>
+        <Link
+          className="App-link"
+          to='/table'
+        >
+          Ir a la Prueba Tecnica
+        </Link>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://ernestozuniga.github.io/?lang=es-Es"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Curriculum Vitae Ernesto Zuniga
         </a>
       </header>
     </div>
