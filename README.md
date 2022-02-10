@@ -14,3 +14,13 @@ Generar una tabla con React, SASS y Redux. Apartir del siguiente endpoint: [Cond
 
 - ejecutar en terminal npm install
 - dirigirse a la direccion http://localhost:3000/table
+
+## Dependencias usadas
+
+- SASS
+- React Router Dom
+- Axios
+
+# Informacion adicional
+
+- No se implementa Redux o useContext por que el manejo del estado no se vuelve tan complejo entre componentes y por tiempo.
